@@ -1,0 +1,32 @@
+
+T2 SOXX: SOXX ±4% 다음 날 같은 방향 (oc=시가→종가, cc=전날 종가→종가)
+       n  same_oc_avg  same_oc_med  same_oc_win  same_cc_avg  same_cc_med  same_cc_win
+reg                                                                                   
+N     85         -0.0         -0.1           49         -0.0         -0.1           46
+H     88          0.0         -0.1           48         -0.2         -0.3           45
+HH   124         -0.7         -0.9           42         -1.1         -1.1           36
+  2026-05~ (지금 같은 장): {'same_oc': (np.float64(0.4), 58, 36), 'same_cc': (np.float64(-0.2), 53, 36)}
+
+T2 SOXL: SOXX ±4% 다음 날 같은 방향 (oc=시가→종가, cc=전날 종가→종가)
+      n  same_oc_avg  same_oc_med  same_oc_win  same_cc_avg  same_cc_med  same_cc_win
+reg                                                                                  
+N    72         -0.0         -0.2           49         -0.2         -0.3           46
+H    82          0.1         -0.2           49         -0.4         -0.5           45
+HH   69         -2.8         -3.1           35         -4.6         -3.5           26
+  2026-05~ (지금 같은 장): {'same_oc': (np.float64(1.2), 58, 36), 'same_cc': (np.float64(-0.4), 50, 36)}
+
+T2 NVDA: SOXX ±4% 다음 날 같은 방향 (oc=시가→종가, cc=전날 종가→종가)
+       n  same_oc_avg  same_oc_med  same_oc_win  same_cc_avg  same_cc_med  same_cc_win
+reg                                                                                   
+N     85          0.4          0.4           59          0.4          0.6           59
+H     88         -0.7         -0.3           47         -1.0         -1.2           38
+HH   124         -0.7         -0.6           46         -0.9         -1.0           41
+  2026-05~ (지금 같은 장): {'same_oc': (np.float64(0.6), 64, 36), 'same_cc': (np.float64(0.3), 56, 36)}
+
+T2 MU: SOXX ±4% 다음 날 같은 방향 (oc=시가→종가, cc=전날 종가→종가)
+       n  same_oc_avg  same_oc_med  same_oc_win  same_cc_avg  same_cc_med  same_cc_win
+reg                                                                                   
+N     85          0.1          0.1           51          0.1         -0.5           45
+H     88          0.5          0.3           55          0.3          0.2           51
+HH   124         -0.1         -0.1           49         -0.8         -1.0           44
+  2026-05~ (지금 같은 장): {'same_oc': (np.float64(0.2), 64, 36), 'same_cc': (np.float64(-0.5), 47, 36)}

@@ -1,0 +1,40 @@
+=== T1 큰 갭 날(SOXX 시가 갭 |≥3%|), 시가에 갭 방향으로 타면? ===
+
+ SOXX
+      n  oc_avg  oc_med  oc_win  mfe_avg  mfe_med  mfe_win  opt_close_avg  opt_close_med  opt_close_win  opt_mix_avg  opt_mix_med  opt_mix_win
+reg                                                                                                                                           
+N    50    -0.3     0.6      54      1.4      1.2       98            1.7           -0.2             50         -0.9         -0.2           50
+H    27    -0.7    -0.5      41      1.5      1.1      100          -17.0          -24.8             30        -17.4        -24.8           30
+HH   57    -0.1     0.7      60      2.4      2.2       93           -6.7           -4.5             44         -7.2         -4.5           44
+  +100% 닿은 비율: {'H': 0.07, 'HH': 0.02, 'N': 0.16}
+  아래 갭만 (oc 평균/이긴비율): {'H': (np.float64(-1.4), 33, 15), 'HH': (np.float64(0.2), 70, 27), 'N': (np.float64(-0.5), 56, 27)}
+  위 갭만: {'H': (np.float64(0.1), 50, 12), 'HH': (np.float64(-0.5), 50, 30), 'N': (np.float64(-0.1), 52, 23)}
+
+ NVDA
+      n  oc_avg  oc_med  oc_win  mfe_avg  mfe_med  mfe_win  opt_close_avg  opt_close_med  opt_close_win  opt_mix_avg  opt_mix_med  opt_mix_win
+reg                                                                                                                                           
+N    50     0.3     0.2      56      2.2      1.7      100            8.4           -6.9             42          7.4         -6.9           42
+H    27    -1.4    -0.9      37      2.0      1.3      100          -18.1          -24.8             26        -18.0        -24.8           26
+HH   57    -0.3     0.3      53      2.8      1.8      100           -4.6           -8.1             46         -5.9         -8.1           46
+  +100% 닿은 비율: {'H': 0.07, 'HH': 0.04, 'N': 0.22}
+  아래 갭만 (oc 평균/이긴비율): {'H': (np.float64(-2.6), 27, 15), 'HH': (np.float64(-0.7), 52, 27), 'N': (np.float64(-0.0), 56, 27)}
+  위 갭만: {'H': (np.float64(0.1), 50, 12), 'HH': (np.float64(0.1), 53, 30), 'N': (np.float64(0.7), 57, 23)}
+
+ MU
+      n  oc_avg  oc_med  oc_win  mfe_avg  mfe_med  mfe_win  opt_close_avg  opt_close_med  opt_close_win  opt_mix_avg  opt_mix_med  opt_mix_win
+reg                                                                                                                                           
+N    50    -0.0    -0.1      44      2.6      1.6      100           -5.5          -15.4             36         -6.0        -15.4           38
+H    27    -1.1    -1.1      26      2.2      1.2       96          -23.1          -29.9             22        -22.8        -29.9           22
+HH   57     1.1     1.5      56      4.5      3.6      100            2.8           -4.2             44          2.5         -4.2           44
+  +100% 닿은 비율: {'H': 0.07, 'HH': 0.09, 'N': 0.1}
+  아래 갭만 (oc 평균/이긴비율): {'H': (np.float64(-1.6), 33, 15), 'HH': (np.float64(1.9), 63, 27), 'N': (np.float64(0.3), 48, 27)}
+  위 갭만: {'H': (np.float64(-0.5), 17, 12), 'HH': (np.float64(0.4), 50, 30), 'N': (np.float64(-0.5), 39, 23)}
+
+ SOXL
+      n  oc_avg  oc_med  oc_win  mfe_avg  mfe_med  mfe_win
+reg                                                       
+N    44     0.6     1.7      59      4.8      3.7      100
+H    27    -2.2    -1.4      41      4.4      2.4      100
+HH   45     0.9     3.2      62      7.7      7.5      100
+  아래 갭만 (oc 평균/이긴비율): {'H': (np.float64(-4.4), 33, 15), 'HH': (np.float64(3.9), 80, 20), 'N': (np.float64(0.9), 65, 23)}
+  위 갭만: {'H': (np.float64(0.5), 50, 12), 'HH': (np.float64(-1.4), 48, 25), 'N': (np.float64(0.3), 52, 21)}
